@@ -1,6 +1,6 @@
 # Kit FMS
 
-=[INSTALAÇÃO PRIMEIRA VEZ]= 
+### =[INSTALAÇÃO PRIMEIRA VEZ]= 
 [FAZER SE É A PRIMEIRA VEZ QUE O PC/TABLET TÁ A CORRER ISTO]
 
 1. Fazer download do zip e extrair (https://github.com/TSGouveia/Kit_FMS_Exec) (é suposto o zip rondar os 60 MB)
@@ -13,7 +13,7 @@
 
 INSTALAÇÃO CONCLUIDA -> Caso seja mudado o tablet ou o PC, esta instalação tem que ser toda feita outra vez.
 
-=[COMO CORRER]=
+### =[COMO CORRER]=
 [FAZER SEMPRE QUE É DESLIGADO O KIT FMS/INTELLIJ]
 
 1. Abrir o Kit FMS no PC
@@ -26,7 +26,7 @@ INSTALAÇÃO CONCLUIDA -> Caso seja mudado o tablet ou o PC, esta instalação t
 
 CONCLUIDO
 
-=[COMO LANÇAR UM PRODUTO]=
+### =[COMO LANÇAR UM PRODUTO]=
 [FAZER SEMPRE QUE DESEJADO]
 
 1. No tablet, dizer em que lado se encontra o operador.
@@ -43,8 +43,8 @@ CONCLUIDO
 Socket com Json\
 Ip da Unity -> localhost:8888\
 Exemplo de Json:\
-}\
- "Port" : "R1_0"\
+{\
+ "Port" : "R1_0",\
  "Value" : "1"\
 }
 
@@ -52,7 +52,7 @@ Exemplo de Json:\
 HTTP Post com Json\
 Ip da Unity -> http://localhost:8082/ \
 Exemplo de Json:\
-}\
- "Position" : "1"\
+{\
+ "Position" : "1",\
  "Color" : "Red"\
 }
