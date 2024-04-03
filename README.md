@@ -39,20 +39,20 @@ CONCLUIDO
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Comunicações
-Arduino -> Unity
-Socket com Json
-Ip da Unity -> localhost:8888
-Exemplo de Json:
-}
- "Port" : "R1_0"
- "Value" : "1"
+### Arduino -> Unity
+Socket com Json\
+Ip da Unity -> localhost:8888\
+Exemplo de Json:\
+}\
+ "Port" : "R1_0"\
+ "Value" : "1"\
 }
 
-HMI -> Unity
-HTTP Post com Json
-Ip da Unity -> http://localhost:8082
-Exemplo de Json:
-}
- "Position" : "1"
- "Color" : "Red"
+### HMI -> Unity
+HTTP Post com Json\
+Ip da Unity -> http://localhost:8082/ \
+Exemplo de Json:\
+}\
+ "Position" : "1"\
+ "Color" : "Red"\
 }
